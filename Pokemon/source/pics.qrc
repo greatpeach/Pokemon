@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>title_generate.jpg</file>
+        <file>back.jpg</file>
+        <file>Dewgong.png</file>
+        <file>Fushigidane.png</file>
+        <file>Hitokage.png</file>
+        <file>Peroringa.png</file>
+        <file>Pikachu.png</file>
+        <file>Zenigame.png</file>
+        <file>主界面.jpg</file>
+        <file>神奇宝贝中心素材.png</file>
+        <file>道馆素材.jpg</file>
+        <file>battle_field.jpg</file>
+        <file>Dewgong_reverse.png</file>
+        <file>Fushigidane_reverse.png</file>
+        <file>Hitokage_reverse.png</file>
+        <file>Peroringa_reverse.png</file>
+        <file>Pikachu_reverse.png</file>
+        <file>Zenigame_reverse.png</file>
+        <file>battle_field2.jpg</file>
+    </qresource>
+</RCC>

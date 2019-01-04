@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1037</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pokemon</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="enter_battleground">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>160</y>
+      <width>91</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>进入道馆</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1041</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1041</width>
+      <height>451</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1041</width>
+      <height>451</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/主界面.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="enter_pokemon_center">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>81</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;进入神奇宝贝中心&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>enter_battleground</zorder>
+   <zorder>enter_pokemon_center</zorder>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="show_backpack"/>
+   <addaction name="show_pokemon"/>
+   <addaction name="show_userlist"/>
+  </widget>
+  <action name="show_userlist">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>用户列表</string>
+   </property>
+   <property name="toolTip">
+    <string>获取用户列表</string>
+   </property>
+  </action>
+  <action name="show_pokemon">
+   <property name="text">
+    <string>精灵</string>
+   </property>
+   <property name="toolTip">
+    <string>查看持有的精灵</string>
+   </property>
+  </action>
+  <action name="show_backpack">
+   <property name="text">
+    <string>背包</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

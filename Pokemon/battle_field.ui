@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>battle_field</class>
+ <widget class="QWidget" name="battle_field">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="back_ground_pic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>550</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/battle_field2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>400</y>
+     <width>621</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="attack_btn">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>121</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>攻击</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="skill_btn">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>121</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>技能</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="item_btn">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>121</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>使用道具</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>871</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="p1_hp">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="p1_hp_bar">
+          <property name="value">
+           <number>24</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="p2_hp">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="p2_hp_bar">
+          <property name="value">
+           <number>24</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="p1_pic">
+        <property name="minimumSize">
+         <size>
+          <width>231</width>
+          <height>241</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>231</width>
+          <height>241</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/Dewgong_reverse.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="log"/>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="p2_pic">
+        <property name="minimumSize">
+         <size>
+          <width>231</width>
+          <height>241</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>231</width>
+          <height>241</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Fushigidane.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <zorder>back_ground_pic</zorder>
+  <zorder>p1_pic</zorder>
+  <zorder>horizontalSpacer</zorder>
+  <zorder>p2_pic</zorder>
+  <zorder>p1_hp_bar</zorder>
+  <zorder>p2_hp_bar</zorder>
+  <zorder>horizontalSpacer_3</zorder>
+  <zorder>auto_check</zorder>
+  <zorder>horizontalSpacer_4</zorder>
+  <zorder>horizontalSpacer_5</zorder>
+  <zorder>horizontalSpacer_6</zorder>
+  <zorder>skill_btn</zorder>
+  <zorder>item_btn</zorder>
+  <zorder>p1_hp</zorder>
+  <zorder>p1_hp_bar</zorder>
+  <zorder>p2_hp_bar</zorder>
+  <zorder>p2_hp</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
